@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio KruKit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- ส่วนหัวเว็บไซต์ KruKit -->
+    <header class="main-header" data-aos="fade-down" >
+        <nav class="navbar">
+            <a href="index.html" class="logo">KruKit</a>
+            <ul class="nav-links">
+                <li><a href="#about">เกี่ยวกับ</a></li>
+                <li><a href="#projects">ผลงาน</a></li>
+                <li><a href="#contact">ติดต่อ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero" class="hero-section"  data-aos="zoom-out-left">
+        <div class="hero-content">
+            <h1>สวัสดีครับ! ผมชื่อ **ครูกิตติชัย**</h1>
+            <p>ครูสอนสาขาวิชาเทคโนโลยีธุรกิจดิจิทัล</p>
+            <a href="#" class="btn">ดูผลงานของผม</a>
+        </div>
+    </section>
+    <section id="about" class="about-section"  
+                        data-aos="fade-up"
+                        data-aos-duration="3000">
+        <div class="about-content">
+            <h2 class="mb2">เกี่ยวกับผม</h2>
+            <p>ผมมีความเชี่ยวชาญในการพัฒนาเว็บไซต์ที่ตอบสนอง (Responsive Web) ทั้ง Front-end และ Back-end รวมถึงมีความคิดสร้างสรรค์ในงานกราฟิกดีไซน์</p>
+            <p>เทคโนโลยีที่ใช้: HTML, CSS, JavaScript, React, Node.js</p>
+        </div>
+    </section>
+    <section data-aos="fade-up" id="projects" class="projects-section">
+        <h2>ผลงาน</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="img/award1.jpg" alt="">
+                <h3>การพัฒนา AI</h3>
+                <p>โครงการพัฒนา AI: "ระบบจำแนกสายพันธุ์พืชจากภาพถ่าย"</p>
+                <a href="award1.html" class="btn-small">ดูเพิ่มเติม</a>
+            </div>
+            <div class="project-card">
+                <img src="img/award2.jpg" alt="">
+                <h3>การแข่งขันด้านความปลอดภัยทางไซเบอร์</h3>
+                <p>โครงการฝึกอบรมและนำทีม "Cyber-Aces" เพื่อการแข่งขัน Capture The Flag (CTF)</p>
+                <a href="#" class="btn-small">ดูเพิ่มเติม</a>
+            </div>
+            <div class="project-card">
+                <img src="img/award3.jpg" alt="">
+                <h3>การพัฒนาแอปพลิเคชันบนมือถือ</h3>
+                <p>โครงการพัฒนา Mobile Application: "PlantCare App" สำหรับดูแลต้นไม้</p>
+                <a href="#" class="btn-small">ดูเพิ่มเติม</a>
+            </div>
+        </div>
+    </section>
+    <section data-aos="fade-up" id="contact" class="contact-section">
+        <h2>ติดต่อ</h2>
+        <p>สามารถติดต่อผมได้ที่ : วิทยาลัยเทคนิคสระบุรี</p>
+        <p>อีเมล : Kittichai.kit@sbt.ac.th</p> 
+        <p>โทรศัพท์ : 089-123-4567</p>
+    </section>
+    <footer class="main-footer">
+        <p>&copy; 2025 God-Kit. All Rights Reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
